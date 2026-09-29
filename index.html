@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Madina Cafe & Restaurant | From breakfast to dinner</title>
+  <meta name="description" content="Madina Cafe & Restaurant, cafe et restaurant all-day: petit-dejeuner, pizza, salades, plats, jus frais et couscous du vendredi.">
+  <meta name="theme-color" content="#0e2a47">
+
+  <meta property="og:title" content="Madina Cafe & Restaurant">
+  <meta property="og:description" content="From breakfast to dinner, where comfort meets flavor">
+  <meta property="og:type" content="restaurant.restaurant">
+  <meta property="og:image" content="./logo.png">
+
+  <link rel="icon" href="./logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Madina Cafe & Restaurant",
+      "description": "From breakfast to dinner, where comfort meets flavor",
+      "servesCuisine": ["Moroccan", "Pizza", "Cafe", "Breakfast", "Salads"],
+      "url": "",
+      "image": "./logo.png",
+      "telephone": "+212600000000",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Adresse à compléter",
+        "addressCountry": "MA"
+      },
+      "sameAs": ["https://www.instagram.com/madina_cafe_restaurant"]
+    }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <header class="site-header" id="siteHeader">
+    <nav class="navbar" aria-label="Navigation principale">
+      <a class="brand" href="#accueil" aria-label="Madina Cafe & Restaurant accueil">
+        <img src="./logo.png" alt="Logo Madina Cafe & Restaurant" class="brand-logo">
+        <span>Madina</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-controls="navMenu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <a href="#accueil" data-i18n="nav.home">Accueil</a>
+        <a href="#menu" data-i18n="nav.menu">Menu</a>
+        <a href="#specialites" data-i18n="nav.specials">Spécialités</a>
+        <a href="#galerie" data-i18n="nav.gallery">Galerie</a>
+        <a href="#avis" data-i18n="nav.reviews">Avis</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+        <div class="language-switch" aria-label="Choisir la langue">
+          <button type="button" class="lang-btn active" data-lang="fr">FR</button>
+          <button type="button" class="lang-btn" data-lang="en">EN</button>
+          <button type="button" class="lang-btn" data-lang="ar">AR</button>
+        </div>
+        <a class="btn btn-small btn-primary reserve-link" href="#reservation" data-i18n="nav.reserve">Réserver</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="accueil" aria-label="Accueil">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-content reveal">
+        <img src="./logo.png" alt="Logo Madina Cafe & Restaurant" class="hero-logo">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Cafe . Restaurant . All day</p>
+        <h1>Madina Cafe & Restaurant</h1>
+        <p class="hero-subtitle" data-i18n="hero.subtitle">From breakfast to dinner, where comfort meets flavor</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary whatsapp-link" href="#" data-message="Bonjour Madina, je souhaite réserver une table." data-i18n="hero.book">Réserver une table</a>
+          <a class="btn btn-ghost" href="#menu" data-i18n="hero.menu">Découvrir le menu</a>
+        </div>
+        <div class="hero-icons" aria-label="Specialites Madina">
+          <span>☕</span>
+          <span>🍕</span>
+          <span>🥗</span>
+          <span>🍹</span>
+        </div>
+      </div>
+      <a class="scroll-down" href="#about" aria-label="Descendre vers la section suivante">
+        <span></span>
+      </a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container two-column">
+        <div class="section-copy reveal">
+          <p class="eyebrow" data-i18n="about.eyebrow">Bienvenue chez Madina</p>
+          <h2 data-i18n="about.title">Une adresse lumineuse du matin au soir</h2>
+          <p data-i18n="about.text">
+            Madina Cafe & Restaurant vous accueille toute la journée: petit-déjeuner gourmand le matin,
+            salades fraîches et pizzas au déjeuner, plats généreux au dîner, jus pressés et ambiance terrasse
+            pour prendre le temps de bien manger.
+          </p>
+        </div>
+        <div class="highlight-grid">
+          <article class="mini-card reveal">
+            <i class="fa-solid fa-mug-saucer" aria-hidden="true"></i>
+            <h3>Breakfast</h3>
+            <p>Matins doux, cafe chaud et assiettes completes.</p>
+          </article>
+          <article class="mini-card reveal">
+            <i class="fa-solid fa-pizza-slice" aria-hidden="true"></i>
+            <h3>Pizza & Salades</h3>
+            <p>Fraicheur, croustillant et recettes conviviales.</p>
+          </article>
+          <article class="mini-card reveal">
+            <i class="fa-solid fa-utensils" aria-hidden="true"></i>
+            <h3>Plats</h3>
+            <p>Classiques maison et specialites gourmandes.</p>
+          </article>
+          <article class="mini-card reveal">
+            <i class="fa-solid fa-glass-water" aria-hidden="true"></i>
+            <h3>Jus frais</h3>
+            <p>Jardin Frais, fruits de saison et energie naturelle.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section menu-section" id="menu">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="menu.eyebrow">Carte</p>
+          <h2 data-i18n="menu.title">Menu Madina</h2>
+          <p data-i18n="menu.text">Des prix indicatifs en MAD, faciles à mettre à jour dans le fichier JavaScript.</p>
+        </div>
+
+        <div class="menu-tabs reveal" id="menuTabs" aria-label="Categories du menu"></div>
+        <div class="menu-grid" id="menuGrid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section specials-section" id="specialites">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="specials.eyebrow">Signatures</p>
+          <h2 data-i18n="specials.title">Les spécialités à ne pas manquer</h2>
+        </div>
+        <div class="specials-grid">
+          <article class="special-card reveal">
+            <img src="https://images.unsplash.com/photo-1604909052743-94e838986d24?auto=format&fit=crop&w=900&q=80" alt="Couscous marocain aux légumes" loading="lazy">
+            <span class="badge">Chaque vendredi</span>
+            <h3>Couscous du vendredi</h3>
+            <p>Un rendez-vous marocain chaleureux, servi généreusement.</p>
+          </article>
+          <article class="special-card reveal">
+            <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=900&q=80" alt="Pastilla aux fruits de mer dorée" loading="lazy">
+            <h3>Pastilla aux fruits de mer</h3>
+            <p>Croustillante, parfumée, elegante, parfaite pour les grandes faims.</p>
+          </article>
+          <article class="special-card reveal">
+            <img src="https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=900&q=80" alt="Pizza chaude sortie du four" loading="lazy">
+            <h3>Pizza au feu de bois</h3>
+            <p>Pâte fine, garnitures fondantes et saveurs généreuses.</p>
+          </article>
+          <article class="special-card reveal">
+            <img src="https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?auto=format&fit=crop&w=900&q=80" alt="Jus frais colorés" loading="lazy">
+            <h3>Jus Jardin Frais</h3>
+            <p>Un mélange fruité et vibrant, préparé minute.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="galerie">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="gallery.eyebrow">Galerie</p>
+          <h2 data-i18n="gallery.title">Une table qui donne envie</h2>
+        </div>
+        <div class="gallery-grid" id="galleryGrid">
+          <button class="gallery-item reveal" data-full="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1400&q=85" aria-label="Voir photo pizza">
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=700&q=80" alt="Pizza garnie avec fromage et basilic" loading="lazy">
+          </button>
+          <button class="gallery-item tall reveal" data-full="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1400&q=85" aria-label="Voir photo salade">
+            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=700&q=80" alt="Salade fraîche colorée" loading="lazy">
+          </button>
+          <button class="gallery-item reveal" data-full="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=1400&q=85" aria-label="Voir photo petit-dejeuner">
+            <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=700&q=80" alt="Petit-déjeuner avec pancakes et fruits" loading="lazy">
+          </button>
+          <button class="gallery-item reveal" data-full="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1400&q=85" aria-label="Voir photo couscous">
+            <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=700&q=80" alt="Plat marocain mijoté aux légumes" loading="lazy">
+          </button>
+          <button class="gallery-item wide reveal" data-full="https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=1400&q=85" aria-label="Voir photo jus frais">
+            <img src="https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=80" alt="Jus d'orange frais servi dans un verre" loading="lazy">
+          </button>
+          <button class="gallery-item reveal" data-full="https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=1400&q=85" aria-label="Voir photo plat principal">
+            <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=700&q=80" alt="Plat principal avec viande et accompagnements" loading="lazy">
+          </button>
+          <button class="gallery-item reveal" data-full="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=1400&q=85" aria-label="Voir photo cuisine restaurant">
+            <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=700&q=80" alt="Chef préparant un plat en cuisine" loading="lazy">
+          </button>
+          <button class="gallery-item tall reveal" data-full="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1400&q=85" aria-label="Voir photo restaurant terrasse">
+            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=700&q=80" alt="Ambiance lumineuse de cafe restaurant" loading="lazy">
+          </button>
+        </div>
+        <div class="center-action reveal">
+          <a class="btn btn-primary" href="https://www.instagram.com/madina_cafe_restaurant" target="_blank" rel="noopener">Suivre sur Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reviews-section" id="avis">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="reviews.eyebrow">Avis clients</p>
+          <h2 data-i18n="reviews.title">Ce que les clients apprécient</h2>
+        </div>
+        <div class="testimonial-shell reveal">
+          <div class="testimonial-track" id="testimonialTrack"></div>
+          <div class="testimonial-controls">
+            <button type="button" id="prevReview" aria-label="Avis précédent"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+            <div class="review-dots" id="reviewDots" aria-label="Pagination avis"></div>
+            <button type="button" id="nextReview" aria-label="Avis suivant"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reservation-section" id="reservation">
+      <div class="container two-column">
+        <div class="section-copy reveal">
+          <p class="eyebrow" data-i18n="reservation.eyebrow">Réservation</p>
+          <h2 data-i18n="reservation.title">Réserver une table sur WhatsApp</h2>
+          <p data-i18n="reservation.text">Remplissez les détails, puis envoyez votre demande directement à Madina.</p>
+        </div>
+        <form class="reservation-form reveal" id="reservationForm">
+          <label>Nom
+            <input type="text" name="name" autocomplete="name" required>
+          </label>
+          <label>Téléphone
+            <input type="tel" name="phone" autocomplete="tel" required>
+          </label>
+          <div class="form-row">
+            <label>Date
+              <input type="date" name="date" required>
+            </label>
+            <label>Heure
+              <input type="time" name="time" required>
+            </label>
+          </div>
+          <label>Personnes
+            <input type="number" name="guests" min="1" max="30" value="2" required>
+          </label>
+          <label>Message
+            <textarea name="message" rows="4" placeholder="Préférence terrasse, anniversaire, poussette..."></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">Envoyer sur WhatsApp</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-layout">
+        <div class="contact-card reveal">
+          <p class="eyebrow" data-i18n="contact.eyebrow">Contact & Location</p>
+          <h2 data-i18n="contact.title">Nous trouver</h2>
+          <!-- TODO: Remplacer cette adresse par l'adresse exacte de Madina Cafe & Restaurant. -->
+          <p><i class="fa-solid fa-location-dot" aria-hidden="true"></i> <strong>Adresse:</strong> <span id="contactAddress">Adresse à compléter</span></p>
+          <p><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> <strong>WhatsApp:</strong> <a id="contactPhone" href="#">+212 600 000 000</a></p>
+          <p><i class="fa-brands fa-instagram" aria-hidden="true"></i> <strong>Instagram:</strong> <a href="https://www.instagram.com/madina_cafe_restaurant" target="_blank" rel="noopener">@madina_cafe_restaurant</a></p>
+          <div class="hours" id="openingHours"></div>
+        </div>
+        <div class="map-wrap reveal">
+          <!-- TODO: Remplacer cet iframe Google Maps par l'emplacement exact du restaurant. -->
+          <iframe
+            title="Carte Google Maps - adresse à compléter"
+            src="https://www.google.com/maps?q=Morocco&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="./logo.png" alt="Logo Madina Cafe & Restaurant" class="footer-logo">
+        <p>From breakfast to dinner, where comfort meets flavor</p>
+      </div>
+      <div class="footer-socials" aria-label="Liens sociaux">
+        <a href="https://www.instagram.com/madina_cafe_restaurant" aria-label="Instagram" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+        <a class="whatsapp-link" href="#" aria-label="WhatsApp" data-message="Bonjour Madina, je souhaite vous contacter."><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#contact" aria-label="Google Maps"><i class="fa-solid fa-map-location-dot"></i></a>
+      </div>
+    </div>
+    <p class="copyright">© 2026 Madina Cafe & Restaurant</p>
+  </footer>
+
+  <button class="lightbox" id="lightbox" aria-label="Fermer la photo agrandie" hidden>
+    <img src="" alt="">
+  </button>
+
+  <a class="floating-whatsapp whatsapp-link" href="#" aria-label="Contacter Madina sur WhatsApp" data-message="Bonjour Madina, je souhaite avoir plus d'informations.">
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <script src="./script.js"></script>
+</body>
+</html>
